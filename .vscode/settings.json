@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "chrono": "cpp",
+        "complex": "cpp",
+        "iomanip": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "xiosbase": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp",
+        "xstring": "cpp",
+        "*.rh": "cpp",
+        "*.def": "cpp",
+        "charconv": "cpp",
+        "compare": "cpp",
+        "locale": "cpp",
+        "system_error": "cpp",
+        "xlocale": "cpp",
+        "xlocinfo": "cpp",
+        "xloctime": "cpp",
+        "xmemory": "cpp",
+        "xstddef": "cpp",
+        "xutility": "cpp",
+        "thread": "cpp"
+    }
+}

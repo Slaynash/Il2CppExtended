@@ -1,0 +1,72 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../external/bdwgc/include/**",
+                "${workspaceFolder}/../external/xxHash/**",
+                "${workspaceFolder}/../external/baselib/Include/**",
+                "${workspaceFolder}/../external/baselib/Platforms/Windows/Include/**"
+            ],
+            "defines": [
+                "_WIN32",
+                "WIN32",
+                "WIN32_THREADS",
+                "_WINDOWS",
+                "WINDOWS",
+                "_UNICODE",
+                "UNICODE",
+                "_CRT_SECURE_NO_WARNINGS",
+                "_SCL_SECURE_NO_WARNINGS",
+                "_WINSOCK_DEPRECATED_NO_WARNINGS",
+                "NOMINMAX",
+                "_DEBUG",
+                "DEBUG",
+                "IL2CPP_DEBUG=1",
+                "WINDOWS_SDK_BUILD_VERSION=19041",
+                "WINAPI_FAMILY=WINAPI_FAMILY_DESKTOP_APP",
+                "NET_4_0",
+                "UNITY_AOT",
+                "IL2CPP_MONO_DEBUGGER_DISABLED",
+                "GC_NOT_DLL",
+                "RUNTIME_IL2CPP",
+                "IL2CPP_ENABLE_WRITE_BARRIERS=1",
+                "IL2CPP_INCREMENTAL_TIME_SLICE=3",
+                "IL2CPP_DEBUG=1",
+                "BASELIB_INLINE_NAMESPACE=il2cpp_baselib"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerArgs": [
+                "D:\\UnityInstalls\\2020.3.25f1\\Editor\\Data\\il2cpp\\libil2cpp\\pch\\pch-c.c",
+                "/nologo",
+                "/c",
+                "/bigobj",
+                "/W3",
+                "/Z7",
+                "/EHs",
+                "/GR-",
+                "/Gy",
+                "/utf-8",
+                "/wd4102",
+                "/wd4800",
+                "/wd4056",
+                "/wd4190",
+                "/wd4723",
+                "/wd4467",
+                "/wd4503",
+                "/wd4996",
+                "/wd4200",
+                "/wd4834",
+                "/Od",
+                "/Zc:inline /RTC1",
+                "/MTd"
+            ]
+        }
+    ],
+    "version": 4
+}
